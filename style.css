@@ -61,19 +61,22 @@ body {
 .about {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding: 20px 60px;
 }
 
-/* .about-text {
-  display: flex;
-  flex-direction: column;
-} */
+.about-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
 
 .about-text p {
-  font-size: 16px;
+  font-size: 18px;
   color: gray;
+  padding-right: 100px;
 }
 
 .about .about-map img {
   width: auto;
-  height: 400px;
+  height: 600px;
 }
