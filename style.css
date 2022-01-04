@@ -72,6 +72,7 @@ body {
 
 .about-text p {
   font-size: 18px;
+  text-align: justify;
   color: gray;
   padding-right: 100px;
 }
@@ -79,4 +80,10 @@ body {
 .about .about-map img {
   width: auto;
   height: 600px;
+}
+
+.properties {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
